@@ -18,7 +18,7 @@ namespace AutoSizeRowHeight
             TableView.RegisterNibForCellReuse(GrowRowTableViewCell.Nib,GrowRowTableViewCell.Key);
 
             TableView.Source = tableSource;
-
+            TableView.RowHeight = UITableView.AutomaticDimension;
             TableView.EstimatedRowHeight = 40f;
             TableView.ReloadData();
         }
