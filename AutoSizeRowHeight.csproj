@@ -94,6 +94,7 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="GrowRowTableViewCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -106,6 +107,31 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="GrowRowTableViewController.cs" />
+    <Compile Include="GrowRowTableViewController.designer.cs">
+      <DependentUpon>GrowRowTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrowRowTableViewCell.cs" />
+    <Compile Include="GrowRowTableViewCell.designer.cs">
+      <DependentUpon>GrowRowTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrowRowTableSource.cs" />
+    <Compile Include="GrowItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MacII.jpg" />
+    <BundleResource Include="Resources\Macintosh_128k.png" />
+    <BundleResource Include="Resources\Macintosh_512K.png" />
+    <BundleResource Include="Resources\Macintosh_Classic_2.jpg" />
+    <BundleResource Include="Resources\Macintosh_Classic.jpg" />
+    <BundleResource Include="Resources\Macintosh_Color_Classic.jpg" />
+    <BundleResource Include="Resources\Macintosh_LC.jpg" />
+    <BundleResource Include="Resources\MacIntosh_Plus.jpg" />
+    <BundleResource Include="Resources\Macintosh_Portable.jpg" />
+    <BundleResource Include="Resources\Macintosh_SE.jpg" />
+    <BundleResource Include="Resources\Power_Macintosh.jpg" />
+    <BundleResource Include="Resources\Powerbook_150.jpg" />
+    <BundleResource Include="Resources\SE30.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

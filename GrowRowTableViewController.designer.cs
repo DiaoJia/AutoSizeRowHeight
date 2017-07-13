@@ -7,11 +7,12 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace AutoSizeRowHeight
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("GrowRowTableViewController")]
+    partial class GrowRowTableViewController
     {
         void ReleaseDesignerOutlets ()
         {
